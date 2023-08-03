@@ -12,7 +12,7 @@ public class ControlLab3 {
 //				switch (X)	// if 대신 switch 적용
 //				case 3: case 13: case 23: case 33: case 43:
 //				if (num==3||num==13||num==23||num==33||num==43) 
-				if (num%10==3 ){
+				if (num%10==3){
 					System.out.printf("%d : *듀크팀*\n", num);
 				}
 			}
