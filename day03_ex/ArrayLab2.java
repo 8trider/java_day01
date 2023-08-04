@@ -9,10 +9,15 @@ public class ArrayLab2 {
 		}
 		
 		System.out.print("모든 원소의 값 : ");
-		for(int data : score) {
-			System.out.print(data+ ",");
+//		for(int data : score) {
+//			System.out.print(data+ ",");
+//		}
+		for (int j=0; j<=score.length-1; j++) {
+			System.out.print(score[j]);
+			if (j<score.length-1)
+				System.out.print(",");
 		}
-		
+			
 		int sum = 0;
 		for(int i=0; i<=score.length-1; i++) {
 			sum += score[i];
