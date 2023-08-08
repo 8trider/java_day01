@@ -1,6 +1,6 @@
 package day5;
 
-class MyObject {
+class MyObject extends Object{
 }
 
 class MyObject2 {
@@ -9,7 +9,7 @@ class MyObject2 {
 	}
 }
 
-class MyObject3 {
+class MyObject3 extends MyObject2 {
 	public String toString() {
 		return super.toString() +"\nMyObject3 클래스의 객체입니다. 오버라이딩";
 	}
