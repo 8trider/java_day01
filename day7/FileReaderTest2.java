@@ -7,8 +7,8 @@ import java.io.IOException;
 
 public class FileReaderTest2 {
 	public static void main(String args[]) {
-		FileReader reader = null;
-		BufferedReader br = null;
+		FileReader reader = null; // 한 글자씩 읽어라
+		BufferedReader br = null; // 한 행씩 읽어라
 		try {
 			reader = new FileReader("c:/iotest/output.txt");
 			br = new BufferedReader(reader);

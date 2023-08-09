@@ -27,7 +27,7 @@ public class FileWriterTest4 {
 			out.printf("오늘은 %d년 %d월 %d일입니다.\r\n", yearNum, monthNum, dateNum);
 			out.printf("오늘은 %s입니다.\r\n", korday);
 
-			LocalDate myld = LocalDate.of(2022, 7, 17);
+			LocalDate myld = LocalDate.of(1988, 12, 5);
 			DayOfWeek myday = myld.getDayOfWeek();
 			String mykorday = myday.getDisplayName(TextStyle.FULL, Locale.KOREAN);
 			out.printf("%s은 %s에 태어났습니다.%n", "XXX", mykorday);

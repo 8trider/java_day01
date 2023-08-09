@@ -29,7 +29,7 @@ public class FileWriterTest {
 		} finally {
 			try {
 				if (writer != null)
-					writer.close();
+					writer.close(); // close하고 또 catch하는 거 너무 불편
 			} catch (Exception e) {
 				System.out.println("파일을 닫는동안 오류 발생!!");
 			}

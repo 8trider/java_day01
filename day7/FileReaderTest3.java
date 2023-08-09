@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class FileReaderTest3 {
 	public static void main(String args[]) {
-		try (FileReader reader = new FileReader("c:/iotest/output_ansi.txt");) {
+		try (FileReader reader = new FileReader("c:/iotest/output3.txt");) {
 			int data;
 			System.out.println(reader.getEncoding());
 			while (true) {
