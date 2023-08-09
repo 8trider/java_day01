@@ -10,7 +10,7 @@ public class PolymorphismTest {
 		printObjectInfo(new java.util.Date());
 		printObjectInfo(new int[10]);
 		printObjectInfo(new double[5]);
-		printObjectInfo(new Integer(100));
+		printObjectInfo(Integer.valueOf(100));
 		printObjectInfo(100);
 		printObjectInfo(3.14);
 	} 
